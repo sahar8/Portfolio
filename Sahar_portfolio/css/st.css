@@ -1,0 +1,208 @@
+html , body {
+	font-family: Berlin Sans FB, sans-serif;
+	width: 100%;
+	margin:0;
+	padding: 0;
+    background-color: #2D4249;
+}
+
+* {box-sizing: border-box;}
+
+.header {
+	margin-top: 2rem;
+}
+
+.logo {
+	float:left;
+	margin-left: 20px;
+
+}
+
+.header-right {
+	float:right;
+	text-align: right;
+	margin-right: 1px;
+
+}
+
+.Menu {
+	width:100%;
+	display:inline-block;
+	background-color: #2d4249;
+	text-align: center;
+}
+
+.Menu a {
+	display:inline-block;
+	background-color: gray;
+	float:center;
+	margin: 0 18px;
+	padding: .5rem;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color:#F5EEDB;
+}
+
+.Menu a:hover {
+	color: #2D4249;
+}
+
+.content {
+	width: 75%;
+	padding: 2rem ;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	background-color: #937782;
+	border-style: inset #937782;
+	height: 156%;
+	text-align: left;
+	position: absolute;
+	left: 10%;
+}
+
+.aboutme {
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 5px;
+  height: 20%;
+  width: 100%;
+}
+
+.aboutme article , .image-co2 article{
+	font-size: 3rem;
+	color:white;
+	float:left;
+	margin-left: 1rem;
+}
+
+.right-aboutme {
+	float: right;
+}
+.aboutme h1 {
+	font-size: 4rem;
+	float:left;
+}
+
+.aboutme p {
+	float: right;
+	margin-top:-2rem;
+}
+
+.Intrest {
+  background-color: lightgray;
+  margin-top: 20px;
+  width: 100%;
+  height: 20%;
+}
+
+.Intrest article {
+	font-size: 3rem;
+	color:white;
+	
+}
+
+
+.image-co , .image-co2 , .image-co3 {
+ display: inline-block;
+  float: left;
+  width: 100%;
+  padding: 2px;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+
+
+.left-image {
+	float: right;
+}
+
+.Skills {
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 20px;
+  width:100%;
+}
+
+.footer {
+	text-align: center;
+	width: 100%;
+	font-size: 1.2rem;
+	color: white;
+	float: center;
+}
+
+
+/* to responsive for small phone */
+@media screen and ( max-width: 360px) {
+	.header-right h1 , h5{
+		font-size: 1.5rem;
+	}
+
+	.Menu a{
+		float:center;
+	    display: block;
+	    margin:0px;
+	    padding: 0px;
+	}
+
+	.Menu a {
+	display:inline-block;
+	float: center;
+	width: 100%;
+	margin-left:1rem;
+	}
+
+	.content {
+		margin-left: 1rem;
+	}
+}
+
+@media screen and ( max-width: 360px) {
+
+	.content {
+		height: 362%;
+	}
+}
+
+
+@media screen and ( min-width: 576px ) {
+
+	.b {
+
+	border-left: 1px dotted black;
+	}
+
+}
+
+@media screen and ( min-width: 361px) and ( max-width: 575px) {
+
+	.content {
+		height: 289%;
+	}
+}
+
+@media screen and ( min-width: 576px) and (max-width: 767px)  {
+	.image-co2 img , .image-co2 img{
+		width:100px;
+	}
+
+	.content {
+		height: 158%;
+	}
+
+}
+
+/* for ipad */
+@media screen and ( width: 768px)  {
+	.image-co2 img , .image-co2 img{
+		width:100px;
+	}
+
+	.content {
+		height: 90%;
+	}
+
+}
